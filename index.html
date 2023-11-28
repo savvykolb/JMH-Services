@@ -650,7 +650,7 @@
             <h2 data-aos="fade-up">Contact</h2>
             <p data-aos="fade-up">
               Thank you for considering JMH Services for your construction
-              needs.
+              needs!
             </p>
           </div>
 
@@ -697,64 +697,68 @@
             data-aos-delay="300"
           >
             <div class="col-xl-9 col-lg-12 mt-4">
-              <form
-                action="forms/contact.php"
+              <!-- <form
+                id="fs-frm"
+                name="simple-contact-form"
+                accept-charset="utf-8"
+                action="https://formspree.io/f/xknllbdk"
                 method="post"
-                role="form"
                 class="php-email-form"
               >
-                <div class="row">
-                  <div class="col-md-6 form-group">
-                    <input
-                      type="text"
-                      name="name"
-                      class="form-control"
-                      id="name"
-                      placeholder="Your Name"
-                      required
-                    />
+                <fieldset id="fs-frm-inputs">
+                  <div class="row">
+                    <div class="col-md-6 form-group">
+                      <label for="full-name">Full Name</label>
+                      <input
+                        type="text"
+                        name="name"
+                        id="full-name"
+                        class="form-control"
+                        id="name"
+                        placeholder="Your Name"
+                        required
+                      />
+                    </div>
+                    <div class="col-md-6 form-group mt-3 mt-md-0">
+                      <label for="email-address">Email Address</label>
+                      <input
+                        type="email"
+                        name="_replyto"
+                        id="email-address"
+                        class="form-control"
+                        id="email"
+                        placeholder="Your Email"
+                        required
+                      />
+                    </div>
                   </div>
-                  <div class="col-md-6 form-group mt-3 mt-md-0">
-                    <input
-                      type="email"
+                  <div class="form-group mt-3">
+                    <label for="message">Message</label>
+                    <textarea
                       class="form-control"
-                      name="email"
-                      id="email"
-                      placeholder="Your Email"
+                      name="subject"
+                      id="subject"
+                      placeholder="Subject"
                       required
-                    />
+                    ></textarea>
                   </div>
-                </div>
-                <div class="form-group mt-3">
+                  <div class="my-3">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">
+                      Your message has been sent. Thank you!
+                    </div>
+                  </div>
+                  <div class="text-center">
                   <input
-                    type="text"
-                    class="form-control"
-                    name="subject"
-                    id="subject"
-                    placeholder="Subject"
-                    required
+                    type="hidden"
+                    name="_subject"
+                    id="email-subject"
+                    value="Contact Form Submission"
                   />
-                </div>
-                <div class="form-group mt-3">
-                  <textarea
-                    class="form-control"
-                    name="message"
-                    rows="5"
-                    placeholder="Message"
-                    required
-                  ></textarea>
-                </div>
-                <div class="my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">
-                    Your message has been sent. Thank you!
-                  </div>
-                </div>
-                <div class="text-center">
                   <button type="submit">Send Message</button>
-                </div>
-              </form>
+                  </div>
+              </form> -->
             </div>
           </div>
         </div>
